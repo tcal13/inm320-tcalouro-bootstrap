@@ -1,0 +1,66 @@
+body {
+  background-color: #F7F8FC;
+  font-family: Mulish; }
+
+p {
+  color: lightslategray; }
+
+h1, h2, h5, h6 {
+  font-weight: bold; }
+
+.sidebar {
+  background: #363740;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  padding: 20px; }
+
+.sidebar a {
+  color: #DDE2FF;
+  padding: 20px; }
+
+hr.solid {
+  border-top: 1px solid #DFE0EB; }
+
+.newsletter {
+  font-size: 20px;
+  color: #DFE0EB; }
+
+.top-card, .side-card {
+  text-align: center;
+  padding: 30px;
+  border-bottom: 1px solid #DFE0EB; }
+
+.top-card-name {
+  font-weight: bold;
+  color: lightgray; }
+
+.white-bg, .top-card {
+  background-color: #FFFFFF; }
+
+.bottom-card {
+  padding: 20px; }
+
+.category {
+  font-weight: bold;
+  font-size: 12px;
+  font-family: Mulish; }
+
+.tickets {
+  font-size: 12px;
+  color: lightslategray; }
+
+.status {
+  font-size: 12px; }
+
+.subheader {
+  font-size: 10px;
+  color: lightslategray; }
+
+.support {
+  color: black; }
+
+.tab {
+  padding-left: 50px; }

@@ -1,0 +1,104 @@
+// Font properties
+$font-fam: Mulish;
+$twelve: 12px;
+
+// Colours
+$slate: lightslategray;
+$background: #F7F8FC;
+$palegray: #DFE0EB;
+$white: #FFFFFF;
+$lightgray: lightgray;
+$black: black;
+$side-bg: #363740;
+$side-links: #DDE2FF;
+
+
+// Main styling
+body {
+    background-color: $background;
+    font-family: $font-fam;
+}
+
+p {
+    color: $slate;
+}
+
+h1, h2, h5, h6 {
+    font-weight: bold;
+}
+
+// Sidebar styling
+.sidebar {
+    background: $side-bg;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    padding: 20px;
+}
+
+.sidebar a {
+    color: $side-links;
+    padding: 20px;
+}
+
+hr.solid {
+    border-top: 1px solid $palegray;
+}
+
+.newsletter {
+    font-size: 20px;
+    color: $palegray;
+}
+
+// Info cards styling
+.top-card, .side-card{
+    text-align: center;
+    padding: 30px;
+    border-bottom: 1px solid $palegray;
+}
+
+.top-card-name {
+    font-weight: bold;
+    color: $lightgray;
+}
+
+.white-bg, .top-card {
+    background-color: $white;
+}
+
+.bottom-card {
+    padding: 20px;
+}
+
+// Bottom tables styling
+.category {
+    font-weight: bold;
+    font-size: $twelve;
+    font-family: $font-fam;
+}
+
+.tickets {
+    font-size: $twelve;
+    color: $slate;
+}
+
+.status {
+    font-size: $twelve;
+}
+
+.subheader {
+    font-size: 10px;
+    color: $slate;
+}
+
+.support {
+    color: $black;
+}
+
+// Spacing styling
+
+.tab {
+    padding-left: 50px;
+}
